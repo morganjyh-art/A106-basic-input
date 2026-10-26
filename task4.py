@@ -16,3 +16,7 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+import math
+input_radius = input("Please enter the radius: ")
+input_height = input("Please enter the height: ")  
+print("The surface area of the cone is: " + str(math.pi * float(input_radius) * (float(input_radius) + math.sqrt(float(input_height)**2 + float(input_radius)**2))))
